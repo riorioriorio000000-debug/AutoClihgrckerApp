@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:padding="32dp" android:background="#1a1a2e">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/app_name" android:textSize="32sp"
+        android:textColor="#7B2FBE" android:textStyle="bold" android:layout_marginBottom="40dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="سرعة النقر (ميلي ثانية)" android:textSize="16sp"
+        android:textColor="#ffffff" android:layout_marginBottom="8dp"/>
+    <EditText android:id="@+id/etInterval" android:layout_width="200dp" android:layout_height="wrap_content"
+        android:hint="1000" android:inputType="number" android:textColor="#ffffff"
+        android:textColorHint="#aaaaaa" android:padding="12dp" android:gravity="center"
+        android:textSize="20sp" android:layout_marginBottom="32dp"/>
+    <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="الحالة: متوقف" android:textSize="18sp"
+        android:textColor="#f5a623" android:layout_marginBottom="40dp"/>
+    <Button android:id="@+id/btnStart" android:layout_width="200dp" android:layout_height="56dp"
+        android:text="تشغيل" android:textSize="18sp" android:textColor="#ffffff"
+        android:backgroundTint="#27ae60" android:layout_marginBottom="16dp"/>
+    <Button android:id="@+id/btnStop" android:layout_width="200dp" android:layout_height="56dp"
+        android:text="ايقاف" android:textSize="18sp" android:textColor="#ffffff"
+        android:backgroundTint="#e74c3c"/>
+</LinearLayout>
